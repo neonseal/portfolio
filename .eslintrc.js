@@ -1,8 +1,10 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true
   },
+  
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -11,16 +13,21 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
-  overrides: [],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx']
+    }
+  ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    project: ['./.tsconfig.eslint.json']
   },
   plugins: ['react', 'eslint-plugin-import', '@typescript-eslint'],
   rules: {
     '@typescript-eslint/ban-types': 'warn',
-    '@typescript-eslint/consistent-type-definitions': 'warn',
     '@typescript-eslint/dot-notation': 'warn',
+    '@typescript-eslint/consistent-type-definitions': 'warn',
     '@typescript-eslint/member-delimiter-style': [
       'warn',
       {
