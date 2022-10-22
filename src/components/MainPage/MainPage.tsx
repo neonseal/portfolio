@@ -1,6 +1,6 @@
-import styles from "./MainPage.module.scss";
+import React, { FC } from 'react';
 
-import React, { FC } from "react";
+import styles from './MainPage.module.scss';
 
 interface MainPageProps { }
 
