@@ -9,8 +9,5 @@
         "javascriptreact",
         "typescript",
         "typescriptreact",
-    ],
-    "cSpell.words": [
-        "fontsource"
     ]
 }
