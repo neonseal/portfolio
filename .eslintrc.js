@@ -85,7 +85,7 @@ module.exports = {
 		'@typescript-eslint/consistent-type-definitions': 'warn',
 		'@typescript-eslint/no-empty-function': 'warn',
 		'@typescript-eslint/no-empty-interface': 'warn',
-		'@typescript-eslint/no-floating-promises': 'warn',
+		'@typescript-eslint/no-floating-promises': 'error',
 		'@typescript-eslint/no-non-null-assertion': 'error',
 		'@typescript-eslint/no-shadow': [
 			'warn',
