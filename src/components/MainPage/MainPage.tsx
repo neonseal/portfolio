@@ -15,7 +15,6 @@ const MainPage: FC<MainPageProps> = () => (
         <NavigationMenu></NavigationMenu>
 
         <div className={styles.intro}>
-            {/* <img className={styles.intro_image} src="https://via.placeholder.com/314" alt="Interesting" /> */}
             <div className={styles.intro_text}>
                 <div className={styles.name}>FIRST NAME LAST NAME</div>
                 <div className={styles.description}>FULL-STACK SOFTWARE ENGINEER & SOMETHING ELSE</div>
