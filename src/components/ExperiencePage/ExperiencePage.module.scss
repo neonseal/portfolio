@@ -1,0 +1,39 @@
+.container {
+    // Primary variables
+    --main-width: 75vw;
+    --title-font-size: 60px;
+
+    width: 100vw;
+    height: 100vh;
+    background: #232b2b;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    .title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: var(--title-font-size);
+        height: 10vh;
+        width: var(--main-width);
+        margin-top: 100px;
+    }
+}
+
+.content {
+    border: 4px solid; // Remove when content is added
+    border-color: white; // Remove when content is added
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    height: 50vh;
+    width: var(--main-width);
+}
