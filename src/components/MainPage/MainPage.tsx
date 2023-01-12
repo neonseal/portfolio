@@ -1,16 +1,14 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 import Button from '@mui/material/Button';
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
 import styles from './MainPage.module.scss';
 
-interface MainPageProps {}
-
 function handleContactMeClick() {
     // Take user to Connect with Me page
 }
 
-const MainPage: FC<MainPageProps> = () => (
+const MainPage = () => (
     <div className={styles.container}>
         <NavigationMenu></NavigationMenu>
 

@@ -1,11 +1,9 @@
-import React, { FC } from 'react';
+import React from 'react';
 import styles from './ConnectPage.module.scss';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
-interface ConnectPageProps {}
-
-const ConnectPage: FC<ConnectPageProps> = () => (
+const ConnectPage = () => (
     <div className={styles.container}>
         <div className={styles.title}>CONNECT WITH ME</div>
         <div className={styles.content}>

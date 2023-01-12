@@ -1,11 +1,9 @@
-import React, { FC } from 'react';
+import React from 'react';
 import styles from './ProjectsPage.module.scss';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
-interface ProjectsPageProps {}
-
-const ProjectsPage: FC<ProjectsPageProps> = () => (
+const ProjectsPage = () => (
     <div className={styles.container}>
         <div className={styles.title}>PROJECTS</div>
         <div className={styles.content}>

@@ -20,18 +20,16 @@
     display: flex;
     flex-direction: column;
     font-size: var(--title-font-size);
-    height: 10vh;
+    height: 6vh;
     width: var(--main-width);
     margin-top: 100px;
 }
 
 .description {
-    border: 4px solid; // Remove when content is added
-    border-color: white; // Remove when content is added
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 5vh;
+    height: 3vh;
     width: var(--main-width);
 }
 
@@ -45,4 +43,17 @@
     text-align: center;
     height: 50vh;
     width: var(--main-width);
+
+    .grid {
+        --main-dimension: 10vw;
+        --title-font-size: 60px;
+
+        width: var(--main-dimension);
+        height: var(--main-dimension);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
